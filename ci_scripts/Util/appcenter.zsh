@@ -59,5 +59,5 @@ appcenter::publish() {
     #[[ $1 == "prod" ]] && MOBILE_CENTER_CURRENT_APP="${APPCENTER_NAME}/iOS-Pilot-Flying-J-Prod-1"
     #ARCHIVE_PATH=$(util::path_to_archive)
     MOBILE_CENTER_CURRENT_APP="jdiggity/XCC-Demo"
-    appcenter distribute release --file "$CI_APP_STORE_SIGNED_APP_PATH" --group "$APPCENTER_GROUP"
+    appcenter distribute release --file $CI_APP_STORE_SIGNED_APP_PATH/$CI_PRODUCT.ipa --group $APPCENTER_GROUP
 }
