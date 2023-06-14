@@ -8,11 +8,11 @@ source ./Util/util.zsh
 source ./Util/jira.zsh
 source ./Util/appcenter.zsh
 
-if "$CI_XCODEBUILD_ACTION" = "archive"
+if [ "$CI_XCODEBUILD_ACTION" = "archive" ]
 then
     ## Use the PR source branch to retrieve the issue key
-    # Get string between angle brackets and save in `ISSUE_KEY`
-    echo "$CI_PULL_REQUEST_SOURCE_BRANCH" | cut -d "[" -f2 | cut -d "]" -f1 | read ISSUE_KEY
+    # Get string after / for ticket name (WIP)
+    echo "$CI_PULL_REQUEST_SOURCE_BRANCH" | cut -d "/" -f2 | read ISSUE_KEY #| cut -d "]" -f1
     # Fail out if source branch does not contain issue key
     [[ -z "$ISSUE_KEY" ]] && \
     { echo "Branch name does not contain issue key. Exiting"; exit 1; }
