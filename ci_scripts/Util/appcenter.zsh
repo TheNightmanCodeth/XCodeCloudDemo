@@ -23,13 +23,15 @@ get_build_version() {
 
 appcenter::get_build_id() {
     RELEASES=$(appcenter distribute releases list)
-    get_build_version # Sets $VERSION to the version we are looking for
+    echo $RELEASES
+    get_build_version $RELEASES # Sets $VERSION to the version we are looking for
     INDEX=1
     while IFS= read -r line; do
         [[ $line =~ "Version:" ]] || \
             { INDEX=$((INDEX+1)); continue; }
         ## Pull out the version number
         VERSION_NUMBER=${line//[^0-9]/}
+        echo "Version number: $VERSION_NUMBER Version: $VERSION"
         ## Verify it matches the version we got from build output
         [[ $VERSION_NUMBER == $VERSION ]] && break || \
             { INDEX=$((INDEX+1)); continue; }
