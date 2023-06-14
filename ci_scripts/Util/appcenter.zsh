@@ -9,7 +9,7 @@
 echo "Appcenter..."
 
 ## APPCENTER_NAME="pfjneagle-6loa-01"
-## APPCENTER_GROUP="Collaborators"
+export APPCENTER_GROUP="Collaborators"
 export MOBILE_CENTER_CURRENT_APP="jdiggity/XCC-Demo"
 
 get_build_version() {
@@ -54,7 +54,7 @@ appcenter::publish() {
     #[[ $1 == "dev" ]] && MOBILE_CENTER_CURRENT_APP="${APPCENTER_NAME}/iOS-Pilot-Flying-J-Dev"
     #[[ $1 == "qa" ]] && MOBILE_CENTER_CURRENT_APP="${APPCENTER_NAME}/iOS-Pilot-Flying-J-QA-1"
     #[[ $1 == "prod" ]] && MOBILE_CENTER_CURRENT_APP="${APPCENTER_NAME}/iOS-Pilot-Flying-J-Prod-1"
-    ARCHIVE_PATH=util::path_to_archive
+    #ARCHIVE_PATH=$(util::path_to_archive)
     MOBILE_CENTER_CURRENT_APP="jdiggity/XCC-Demo"
-    appcenter distribute release --file "$ARCHIVE_PATH" --group "$APPCENTER_GROUP"
+    appcenter distribute release --file "$CI_APP_STORE_SIGNED_APP_PATH" --group "$APPCENTER_GROUP"
 }
