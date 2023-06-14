@@ -8,8 +8,8 @@
 
 echo "Appcenter..."
 
-APPCENTER_NAME="pfjneagle-6loa-01"
-APPCENTER_GROUP="Collaborators"
+## APPCENTER_NAME="pfjneagle-6loa-01"
+## APPCENTER_GROUP="Collaborators"
 
 get_build_version() {
     BUILD_OUTPUT=$1
@@ -46,6 +46,7 @@ appcenter::get_download_url() {
         echo "Couldn't pull release url"
         echo $RELEASE_INFO
         exit 1
+    fi
 }
 
 appcenter::publish() {
