@@ -8,7 +8,7 @@ source ./Util/util.zsh
 source ./Util/jira.zsh
 source ./Util/appcenter.zsh
 
-if "$CI_XCODEBUILD_ACTION" = "archive"
+if [ "$CI_XCODEBUILD_ACTION" = "archive" ]
 then
     ## Use the PR source branch to retrieve the issue key
     # Get string after / for ticket name (WIP)
