@@ -24,7 +24,7 @@ get_build_version() {
 appcenter::get_build_id() {
     RELEASES=$(appcenter distribute releases list)
     echo $RELEASES
-    get_build_version $RELEASES # Sets $VERSION to the version we are looking for
+    get_build_version $1 # Sets $VERSION to the version we are looking for
     INDEX=1
     while IFS= read -r line; do
         [[ $line =~ "Version:" ]] || \
