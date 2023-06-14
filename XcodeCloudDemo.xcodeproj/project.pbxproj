@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7435F7662A3A105C00714CF2 /* XcodeCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7435F7662A3A105C00714CF2 /* XCCCCCCCCDEMOOOOOOOOOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCCCCCCCCDEMOOOOOOOOOO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7435F7692A3A105C00714CF2 /* XcodeCloudDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeCloudDemoApp.swift; sourceTree = "<group>"; };
 		7435F76B2A3A105C00714CF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7435F76D2A3A105D00714CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		7435F7672A3A105C00714CF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7435F7662A3A105C00714CF2 /* XcodeCloudDemo.app */,
+				7435F7662A3A105C00714CF2 /* XCCCCCCCCDEMOOOOOOOOOO.app */,
 				7435F7762A3A105D00714CF2 /* XcodeCloudDemoTests.xctest */,
 				7435F7802A3A105D00714CF2 /* XcodeCloudDemoUITests.xctest */,
 			);
@@ -144,7 +144,7 @@
 			);
 			name = XcodeCloudDemo;
 			productName = XcodeCloudDemo;
-			productReference = 7435F7662A3A105C00714CF2 /* XcodeCloudDemo.app */;
+			productReference = 7435F7662A3A105C00714CF2 /* XCCCCCCCCDEMOOOOOOOOOO.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7435F7752A3A105D00714CF2 /* XcodeCloudDemoTests */ = {
@@ -425,6 +425,7 @@
 				DEVELOPMENT_TEAM = D44Y5BBJ48;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = XCCCCCDEMOOOOOOO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -436,7 +437,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jdiggity.XcodeCloudDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = XCCCCCCCCDEMOOOOOOOOOO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,6 +455,7 @@
 				DEVELOPMENT_TEAM = D44Y5BBJ48;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = XCCCCCDEMOOOOOOO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,7 +467,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.jdiggity.XcodeCloudDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = XCCCCCCCCDEMOOOOOOOOOO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
