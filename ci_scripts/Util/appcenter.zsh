@@ -10,6 +10,7 @@ echo "Appcenter..."
 
 ## APPCENTER_NAME="pfjneagle-6loa-01"
 ## APPCENTER_GROUP="Collaborators"
+export MOBILE_CENTER_CURRENT_APP="jdiggity/XCC-Demo"
 
 get_build_version() {
     BUILD_OUTPUT=$1
