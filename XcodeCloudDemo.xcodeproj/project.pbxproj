@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7416B5432A3A1236009C1FAB /* ci_scripts in Resources */ = {isa = PBXBuildFile; fileRef = 7416B5422A3A1236009C1FAB /* ci_scripts */; };
 		7435F76A2A3A105C00714CF2 /* XcodeCloudDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435F7692A3A105C00714CF2 /* XcodeCloudDemoApp.swift */; };
 		7435F76C2A3A105C00714CF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435F76B2A3A105C00714CF2 /* ContentView.swift */; };
 		7435F76E2A3A105D00714CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7435F76D2A3A105D00714CF2 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7416B5422A3A1236009C1FAB /* ci_scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ci_scripts; sourceTree = "<group>"; };
 		7435F7662A3A105C00714CF2 /* XCCCCCCCCDEMOOOOOOOOOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCCCCCCCCDEMOOOOOOOOOO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7435F7692A3A105C00714CF2 /* XcodeCloudDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeCloudDemoApp.swift; sourceTree = "<group>"; };
 		7435F76B2A3A105C00714CF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		7435F75D2A3A105C00714CF2 = {
 			isa = PBXGroup;
 			children = (
+				7416B5422A3A1236009C1FAB /* ci_scripts */,
 				7435F7682A3A105C00714CF2 /* XcodeCloudDemo */,
 				7435F7792A3A105D00714CF2 /* XcodeCloudDemoTests */,
 				7435F7832A3A105D00714CF2 /* XcodeCloudDemoUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7416B5432A3A1236009C1FAB /* ci_scripts in Resources */,
 				7435F7712A3A105D00714CF2 /* Preview Assets.xcassets in Resources */,
 				7435F76E2A3A105D00714CF2 /* Assets.xcassets in Resources */,
 			);
@@ -419,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XcodeCloudDemo/Preview Content\"";
@@ -449,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XcodeCloudDemo/Preview Content\"";
